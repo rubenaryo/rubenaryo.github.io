@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Ruben Young: Portfolio</title>
+    <meta name="description" content="Ruben Young's Portfolio Website">
+    <meta name="author" content="Ruben Young">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/mystyles.css" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+
+            <div class="container">
+
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-item nav-link mx-3" href="#projects">Projects</a>
+                    <a class="nav-item nav-link mx-3" href="#about-me">About</a>
+                    <a class="nav-item nav-link mx-3" href="#contact">Contact</a>
+                </div>
+
+            </div>
+        </nav>
+
+        <section class="banner">
+            <div class="jumbotron jumbotron-fluid" id="banner">
+                <div class="hero-text">
+                    <h1 class="display-4">Ruben Young</h1>
+                    <p>Engine Programmer.</p>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <article id="projects">
+        <div class="row justify-content-center">
+            <h1>Projects</h1>
+            <div class="col-6 col-sm-12 col-lg-10">
+                <div class="card-deck">
+                    <section class="card my-3">
+                        <img class="layout-image card-img-top img-fluid" src="media/tdd.PNG" alt="Photo Sample">
+                        <div class="card-body">
+                            <h3 class="layout-title card-title">Time Drifter Deluxe</h3>
+                            <p class="layout-text card-text">Ever wanted to fend off the police as you navigate a city?
+                                Add a touch of time-manipulation and you have yourself this top-down racing game set in
+                                a
+                                sprawling metropolis.
+                            </p>
+                            <p>My role in this project was as both team leader and AI lead.
+                            </p>
+                            <p>Made using Microsoft's XNA/MonoGame framework in the C# programming language</p>
+                        </div>
+                    </section>
+                    <section class="card my-3">
+                        <img class="layout-image card-img-top img-fluid" src="media/fission_1_400x200.png" alt="Photo Sample">
+                        <div class="card-body">
+                            <h3 class="layout-title card-title">Fission</h3>
+                            <p class="layout-text card-text">A scientific recreation of the classic arcade game
+                                asteroids.
+                                In Fission you play as a sub-microscopic explorer, blasting through a field of
+                                Uranium-235 Nuclei
+                                with your neutron blaster.
+                            </p>
+                            <p>
+                                This was an independent endeavor where all code, assets, and design was made by me.
+                            </p>
+                            <p>Made in the Unity Engine</p>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <article id="about-me" style="margin-top: 50px;">
+        <section class="container-fluid bg-dark">
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <div class="jumbotron bg-light" style="margin-top: 40px;margin-bottom: 40px">
+                        <div class="about-me-content text-center">
+                            <h2 class="display 4">About Me</h2>
+                            <img class="img-fluid rounded-circle" src="media/me_20.jpg" alt="Me" style="margin-top: 25px;margin-bottom: 35px;">
+                            <p>I'm a sophomore at Rochester Institute of Technology (RIT) looking for game development
+                                work. As an aspiring Game Engine Programmer,
+                                the way low-level systems work fascinates me, and I am deeply interested in AI
+                                technologies.
+                            </p>
+                            <p>
+                                Originally from Barranquilla, Colombia, I spent the majority of my life jumping from
+                                school to school in places like Peru, Puerto Rico, Venezuela, and Thailand.
+                                Living abroad has made me a veteran at adapting to new environments, in addition to
+                                developing an obsession with foreign languages, history, and cultures.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+
+    <article id="contact">
+        <section class="container" style="margin-top: 50px;margin-bottom: 50px;">
+            <form action="contact.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" class="form-control" id="message" rows="4"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="anti-spam">What is two plus two?</label>
+                    <input name="human" type="text" class="form-control" id="anti-spam" placeholder="Answer">
+                    <small id="spam" class="form-text text-muted">For anti-spam purposes</small>
+                </div>
+                <button type="submit" class="btn btn-light">Submit</button>
+            </form>
+        </section>
+    </article>
+
+    <!--BOOTSTRAP/JQUERY IMPORTS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
