@@ -25,9 +25,10 @@ export default function Home() {
         <div className="p-1"></div>
         <TypographyLead>Welcome to my personal website!</TypographyLead>
         <TypographyP>
-          {"I'm Ruben, a software engineer based in San Francisco specializing in game development, "}
-          {"particularly in the realm of game engines, graphics, and animation. "}
-          {"This is a place I stood up to showcase my work and what I'm passionate about."}
+          {"I'm Ruben, a game engineer based in Philadelphia specializing in game engines, graphics, and animation."}
+          {" Previously I was a client software engineer for The Sims 4 at EA in the Bay Area, but I recently left to"}
+          {" pursue a master's degree in Computer Graphics and Game Technology at the University of Pennsylvania."}
+          {" This is a place I stood up to showcase my work and what I'm passionate about."}
         </TypographyP>
         <div className="mt-4 flex flex-row items-center gap-2">
           <Button

@@ -31,11 +31,51 @@ export default function Home() {
         <div className="mt-6">
           <TypographyH2>Industry Experience</TypographyH2>
           <InstitutionHeader>Electronic Arts (Maxis)</InstitutionHeader>
-          <InstitutionSubheader>January 2021 - Present</InstitutionSubheader>
+          <InstitutionSubheader>January 2021 - August 2024</InstitutionSubheader>
+		  <InstitutionSubheader>Internships: Summer 2019, Summer 2020</InstitutionSubheader>
+        </div>
+		<div className="mt-6">
+          <TypographyH2>Shipped Titles</TypographyH2>
+          <InstitutionHeader>The Sims 4</InstitutionHeader>
+          <ul className="list-outside list-none pl-3">
+            <li className="space-x-2 leading-7">
+              <span className="font-small text-slate-900 dark:text-slate-50">
+                <TypographyP>Life and Death (2024)</TypographyP>
+              </span>
+            </li>
+			<li className="space-x-2 leading-7">
+              <span className="font-small text-slate-900 dark:text-slate-50">
+                <TypographyP>For Rent (2023)</TypographyP>
+              </span>
+            </li>
+			<li className="space-x-2 leading-7">
+              <span className="font-small text-slate-900 dark:text-slate-50">
+                <TypographyP>Growing Together (2023)</TypographyP>
+              </span>
+            </li>
+			<li className="space-x-2 leading-7">
+              <span className="font-small text-slate-900 dark:text-slate-50">
+                <TypographyP>Cottage Living (2021)</TypographyP>
+              </span>
+            </li>
+			<li className="space-x-2 leading-7">
+              <span className="font-small text-slate-900 dark:text-slate-50">
+                <TypographyP>Snowy Escape (2020)</TypographyP>
+              </span>
+            </li>
+			<li className="space-x-2 leading-7">
+              <span className="font-small text-slate-900 dark:text-slate-50">
+                <TypographyP>Discover University (2019)</TypographyP>
+              </span>
+            </li>
+		</ul>
         </div>
         <div className="mt-6">
           <TypographyH2>Education</TypographyH2>
-          <InstitutionHeader>Rochester Institute of Technology (RIT)</InstitutionHeader>
+          <InstitutionHeader>University of Pennsylvania</InstitutionHeader>
+          <InstitutionSubheader>August 2024 - Present</InstitutionSubheader>
+          <InstitutionDescription>Master of Science in Computer Graphics and Game Technology</InstitutionDescription>
+		  <InstitutionHeader>Rochester Institute of Technology</InstitutionHeader>
           <InstitutionSubheader>August 2017 - December 2020</InstitutionSubheader>
           <InstitutionDescription>Bachelor of Science in Game Design and Development</InstitutionDescription>
         </div>
@@ -60,7 +100,7 @@ export default function Home() {
             </li>
             <li className="space-x-2 leading-7">
               <span className="font-small text-slate-900 dark:text-slate-50">
-                Cross-Platform development across Mac and Consoles
+                Cross-Platform development across Mac and Console
               </span>
             </li>
             <li className="space-x-2 leading-7">
@@ -73,10 +113,15 @@ export default function Home() {
           <ul className="list-outside list-none pl-3">
             <li className="space-x-2 leading-7">
               <span className="font-small text-slate-900 dark:text-slate-50">
-                Linear Algebra
+                Advanced Linear Algebra
               </span>
             </li>
             <li className="space-x-2 leading-7">
+              <span className="font-small text-slate-900 dark:text-slate-50">
+                Body Kinematics for Character Animation
+              </span>
+            </li>
+			<li className="space-x-2 leading-7">
               <span className="font-small text-slate-900 dark:text-slate-50">
                 Differential Equations
               </span>
@@ -105,16 +150,18 @@ export default function Home() {
               <TypographyInlineCode>C</TypographyInlineCode>
               <TypographyInlineCode>C#</TypographyInlineCode>
               <TypographyInlineCode>Python</TypographyInlineCode>
-              <TypographyInlineCode>HLSL / GLSL</TypographyInlineCode>
+              <TypographyInlineCode>HLSL</TypographyInlineCode>
+              <TypographyInlineCode>GLSL</TypographyInlineCode>
             </li>
             <li className="space-x-2 leading-7">
               <span className="font-small text-slate-900 dark:text-slate-50">
                 Graphics Libraries
               </span>
+              <TypographyInlineCode>DirectX 9</TypographyInlineCode>
               <TypographyInlineCode>DirectX 11</TypographyInlineCode>
               <TypographyInlineCode>DirectX 12</TypographyInlineCode>
-              <TypographyInlineCode>Metal</TypographyInlineCode>
-              <TypographyInlineCode>Vulkan</TypographyInlineCode>
+              <TypographyInlineCode>OpenGL</TypographyInlineCode>
+			  <TypographyInlineCode>Metal</TypographyInlineCode>
             </li>
             <li className="space-x-2 leading-7">
               <span className="font-small text-slate-900 dark:text-slate-50">
