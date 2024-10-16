@@ -4,7 +4,6 @@ const { withContentlayer } = require("next-contentlayer");
 const nextConfig = {
   output: 'export',
   reactStrictMode: true,
-  images: { unoptimized: true }
 };
 
 /**
