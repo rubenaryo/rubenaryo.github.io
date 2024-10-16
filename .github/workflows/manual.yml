@@ -19,13 +19,10 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-    - name: debug
-      run: ls -R
-      working-directory: .
-    - name: install
-      run: npm install
-      working-directory: .
     # Runs a single command using the runners shell
-    - name: deploy
-      run: npm run dev
+    - name: build
+      run: npm run build
+      working-directory: .
+    - name: start
+      run: npm run start
       working-directory: .
