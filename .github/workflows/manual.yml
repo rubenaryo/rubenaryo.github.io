@@ -20,3 +20,4 @@ jobs:
     # Runs a single command using the runners shell
     - name: deploy
       run: npm run dev
+      working-directory: .
